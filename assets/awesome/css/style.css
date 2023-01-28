@@ -1,0 +1,241 @@
+﻿{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI Variable Display';
+}
+
+body {
+    background: lightblue;
+}
+/*Smart phone nhỏ*/
+@media screen and (min-width: 240px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 360px) {
+    .left_Side {
+        padding-top: 10px;
+        width: 100%;
+        background: #003147;
+        color: white;
+        height: 1230px;
+    }
+
+    .right_Side {
+        margin-top: -40px;
+        width: 100%;
+        height: 1200px;
+        background: white;
+        color: black;
+        font-size: 30px;
+        font-family: 'Segoe UI Variable Display';
+    }
+
+    .education {
+        font-family: 'Segoe UI Variable Display';
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+
+        .education h2 {
+            font-size: 120%;
+        }
+
+    .avatarBox {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .myProfile {
+        text-align: center;
+        font-family: 'Segoe UI Variable Display';
+        font-size: 27px;
+        margin-top: 50px;
+    }
+
+        .myProfile h2 {
+            font-size: 200%;
+            margin-top: 0px;
+        }
+
+    .dev {
+        margin-top: -30px;
+        font-size: 35px;
+    }
+
+    .widthColumn {
+        width: 15%;
+    }
+
+    .infor {
+        font-family: 'Segoe UI Variable Display';
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+
+        .infor h2 {
+            margin-left: 0%;
+            font-size: 120%;
+        }
+
+    .mucTieu h2 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .hocVan h2 {
+        text-align: center;
+    }
+
+    .kyNang h2 {
+        text-align: center;
+    }
+
+    .duAn h2 {
+        text-align: center;
+    }
+
+    .mucTieuContent {
+        margin-left: 3%;
+    }
+
+    .hocVanContent {
+        margin-left: 3%;
+    }
+
+    .kyNangContent {
+        margin-left: 3%;
+    }
+
+    .duAnContent {
+        margin-left: 3%;
+    }
+
+        .duAnContent a {
+            text-decoration: none;
+            color: blue;
+        }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (min-width: 480px) {
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px) {
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 120px 0px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_Side {
+        width: 260px;
+        height: 500px;
+        background: #003147;
+        float: left;
+    }
+
+    .dev {
+        font-size: 15px;
+        margin-top: -25px;
+    }
+
+    .right_Side {
+        width: 510px;
+        height: 500px;
+        float: left;
+        background: white;
+        font-size: 15px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .infor h2 {
+        text-align: center;
+    }
+
+    .myProfile {
+        text-align: center;
+        font-family: 'Segoe UI Variable Display';
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+        .myProfile h2 {
+            margin-top: 5px;
+            font-family: Arial;
+        }
+
+    .avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .infor {
+        font-family: 'Segoe UI Variable Display';
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .widthColumn {
+        width: 18%;
+    }
+
+    .infor h2 {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 0%;
+    }
+
+    .mucTieu {
+        margin-top: -25px;
+    }
+
+        .mucTieu h2 {
+            text-align: center;
+            font-size: 98%;
+        }
+
+    .hocVan h2 {
+        text-align: center;
+        font-size: 98%;
+    }
+
+    .kyNang h2 {
+        text-align: center;
+        font-size: 98%;
+    }
+
+    .duAn h2 {
+        text-align: center;
+        font-size: 98%;
+    }
+
+    .education {
+        font-family: 'Segoe UI Variable Display';
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+        .education h2 {
+            text-align: left;
+            font-size: 15px;
+        }
+
+    .duAnContent a {
+        text-decoration: none;
+        color: blue;
+    }
+}
